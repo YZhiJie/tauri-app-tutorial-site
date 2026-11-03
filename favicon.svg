@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="AniNotes">
+  <defs>
+    <linearGradient id="bg" x1="4" y1="2" x2="60" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7aa8" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#bg)" />
+
+  <!-- 钳钳的腿 -->
+  <g stroke="#fff7fb" stroke-width="3.4" stroke-linecap="round" opacity=".95">
+    <path d="M21 47.5 16.5 54" fill="none" />
+    <path d="M28.5 50 27 56.5" fill="none" />
+    <path d="M35.5 50 37 56.5" fill="none" />
+    <path d="M43 47.5 47.5 54" fill="none" />
+  </g>
+
+  <!-- 两只大钳 -->
+  <g fill="#fff7fb">
+    <ellipse cx="11.5" cy="29" rx="7.6" ry="6" transform="rotate(-18 11.5 29)" />
+    <ellipse cx="52.5" cy="29" rx="7.6" ry="6" transform="rotate(18 52.5 29)" />
+  </g>
+
+  <!-- 手臂 -->
+  <g stroke="#fff7fb" stroke-width="4" stroke-linecap="round">
+    <path d="M15.5 33.5 21.5 38.5" fill="none" />
+    <path d="M48.5 33.5 42.5 38.5" fill="none" />
+  </g>
+
+  <!-- 蟹壳与眼睛 -->
+  <g fill="#fff7fb">
+    <ellipse cx="32" cy="41" rx="15.5" ry="11.5" />
+    <circle cx="25.5" cy="27" r="5.8" />
+    <circle cx="38.5" cy="27" r="5.8" />
+  </g>
+
+  <!-- 眼珠 -->
+  <g fill="#d23b73">
+    <circle cx="25.2" cy="27.4" r="2.4" />
+    <circle cx="38.8" cy="27.4" r="2.4" />
+  </g>
+  <g fill="#ffffff" opacity=".9">
+    <circle cx="24.4" cy="26.5" r="0.85" />
+    <circle cx="38" cy="26.5" r="0.85" />
+  </g>
+
+  <!-- 小嘴 -->
+  <path d="M30.2 44.6q1.8 2.6 3.6 0" stroke="#ffa7c4" stroke-width="2" stroke-linecap="round" fill="none" />
+</svg>
